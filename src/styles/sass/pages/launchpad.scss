@@ -1,0 +1,137 @@
+.launchpad {
+    width: 100%;
+    height: 100%;
+}
+.launchpad-top {
+    width: 100%;
+    text-align: center;
+    height: 300px;
+    padding-top: 200px;
+}
+
+.launchpad-second {
+    width: 100%;
+}
+.launchpad-third {
+    width: 100%;
+    padding-top: 50px;
+}
+.launchpad-top-second {
+    padding-top: 50px;
+}
+
+.launchpad-card-wrapper {
+    width: 100%;
+    padding: 30px 50px 10px 50px;
+}
+// .launchpad-cards {
+//     display: flex;
+//     align-items: center;
+//     gap: 10px;
+//     flex-wrap: wrap;
+//     // justify-content: flex-start;
+//     text-align: center;
+//     margin: 0 auto !important;
+// }
+
+.launchpad-card {
+    width: 100%;
+    height: 500px;
+
+    background-color: #ffffff14;
+
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+    border: none;
+    position: relative;
+}
+
+.launchpad-card-2 {
+    width: 33%;
+    height: 580px;
+
+    background-color: #ffffff14;
+
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+    border: none;
+    position: relative;
+}
+
+@media only screen and (max-width: 767px) {
+    .launchpad-card-2 {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+
+.launchpad-default-btn-view span {
+    font-size: 14px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: "Rajdhani", sans-serif;
+    color: #fff;
+    padding-inline: 1.25rem;
+    padding: 7px 14px;
+    line-height: 40px;
+    transform-origin: right;
+    transition: all 0.3s ease;
+    background: #c3976a;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    font-weight: 600;
+}
+.launchpad-default-btn-view span:hover {
+    color: #c3976a;
+    transform: translateY(-3px);
+    background: transparent;
+    border-color: #c3976a;
+    box-shadow: 0 0 10px rgba(219, 165, 40, 0.4);
+}
+
+.launchpad-default-btn span {
+    font-size: 14px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: "Rajdhani", sans-serif;
+    color: #fff;
+    padding-inline: 1.25rem;
+    padding: 7px 14px;
+    line-height: 40px;
+    transform-origin: right;
+    transition: all 0.3s ease;
+    background: #c3976a;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    font-weight: 600;
+}
+.launchpad-default-btn span:hover {
+    color: #c3976a;
+    transform: translateY(-3px);
+    background: transparent;
+    border-color: #c3976a;
+    box-shadow: 0 0 10px rgba(219, 165, 40, 0.4);
+}
+
+.launchpad-card:hover {
+    transform: translateY(-5px);
+}
+
+.launchpad-card-2:hover {
+    transform: translateY(-5px);
+}
+
+.launchpad-card-bottom {
+    padding: 10px;
+    width: 100%;
+}
+.progress-bar {
+    background-color: #c3976a !important;
+}

@@ -1,0 +1,77 @@
+body {
+  background-image: url('/images/bg/BG.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100vw !important;
+  overflow-x: hidden !important;
+}
+
+h1 {
+  span {
+    background: #c3976a ;
+    background: linear-gradient(to right, #c3976a 0%, #d9d7c7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+h2 {
+  span {
+    background: #c3976a ;
+    background: linear-gradient(to right, #c3976a 0%, #d9d7c7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+.rect-gradient {
+  border-radius: 19.36px;
+  border: 3.63px;
+
+  background:
+    radial-gradient(
+        100% 324% at 100% 0%,
+        rgba(49, 49, 49, 0.215) 0%,
+        rgba(62, 62, 62, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        100% 324% at 100% 100%,
+        rgba(58, 22, 14, 0.4) 0%,
+        rgba(58, 22, 14, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    linear-gradient(
+      107.15deg,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(255, 255, 255, 0.07) 100%
+    ),
+    radial-gradient(
+        100% 324% at 0% 0%,
+        rgba(255, 255, 255, 0.5) 0%,
+        rgba(255, 255, 255, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  border: 3.63px solid;
+
+  border-image-source:
+    radial-gradient(
+        100% 324% at 100% 0%,
+        rgba(49, 49, 49, 0.215) 0%,
+        rgba(62, 62, 62, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        100% 324% at 100% 100%,
+        rgba(58, 22, 14, 0.4) 0%,
+        rgba(58, 22, 14, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    radial-gradient(
+        100% 324% at 0% 0%,
+        rgba(255, 255, 255, 0.5) 0%,
+        rgba(255, 255, 255, 0) 100%
+      )
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+}

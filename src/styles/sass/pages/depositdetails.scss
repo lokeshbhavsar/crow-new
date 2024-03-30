@@ -1,0 +1,76 @@
+.deposit-details {
+    width: 100%;
+    height: 100vh;
+    margin-top: 350px;
+    margin-bottom: 200px;
+    display: flex;
+  justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.deposit-details-top {
+    width: 100%;
+    padding-bottom: 20px;
+   
+}
+.deposit-details-bottom {
+    width: 100%;
+    
+}
+.deposit-details-top-top {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;   
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.deposit-details-top-bottom {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.deposit-details-btn {
+    font-size: 14px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-family: "Rajdhani", sans-serif;
+    color: #fff;
+    padding-inline: 1.25rem;
+    padding: 3px 10px;
+    width: auto;
+    line-height: 40px;
+    transform-origin: right;
+    transition: all 0.3s ease;
+    background: #c3976a;
+    border: 1px solid transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    font-weight: 600;
+    cursor: pointer !important;
+}
+
+.deposit-detail-p {
+    display: none;
+}
+@media only screen and (max-width: 767px) {
+    .deposit-detail-p {
+        display: none;
+    }
+    .deposit-details-top-bottom {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .deposit-details {
+        margin-bottom:540px;
+        margin-top: 600px;
+    }
+}
